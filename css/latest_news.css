@@ -1,0 +1,98 @@
+.notice-container
+{
+    position: relative;
+    width: 310px;
+    height: 379px;
+    overflow: hidden;
+    background: transparent;
+	font-family: 'Montserrat',sans-serif;
+}
+
+
+.notice-head
+{
+	text-align: left;
+	background: #033d61;
+	padding: 10px 10px 10px 15px;
+	color: #f2faff;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 2px;
+	border-bottom: 10px solid #f2faff;
+}
+
+.notice-board
+{
+	width: 96%;
+	margin: 0 auto;
+	height: 327px;
+	border-bottom: 4px solid #033d61;
+}
+
+
+marquee
+{
+	width: 100%;
+	height: 97%;
+	margin: 0 auto;
+	background: transparent;
+}
+
+.notice
+{
+	border-bottom: 1px solid #1f1f1f;
+}
+
+.notice:last-child
+{
+	border-bottom: 0;
+}
+
+.notice-tag
+{
+	padding-top: 15px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-size: 15px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	text-align: justify;
+	font-weight: 600;
+	color: #022f4a;
+	
+}
+
+.notice-text
+{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-size: 13px;
+	letter-spacing: 0;
+	word-spacing: 1px;
+	line-height: 20px;
+	text-align: justify;
+	font-weight: 400;
+	color: #011019;
+	
+}
+
+.date-text
+{
+	padding-top: 0;
+	margin-top: 0px;
+	font-size: 12px;
+	font-weight: 500;
+	color: #022f4a;
+}
+
+
+marquee p
+{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	border-bottom: 1px solid #1f1f1f;
+}

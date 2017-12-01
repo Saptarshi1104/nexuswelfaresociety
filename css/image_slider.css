@@ -1,0 +1,110 @@
+
+.mySlides
+{
+    display: none;
+}
+
+.slideshow-container
+{
+    position: relative;
+    width: 910px;
+    height: 370px;
+    overflow: hidden;
+    /*max-width: 1000px;*/
+    background: #033d61;
+    border: 6px solid #efefef;
+    border-radius: 1px;
+    -webkit-box-shadow: 20px 22px 70px -14px rgba(150,150,150,1);
+    -moz-box-shadow: 20px 22px 70px -14px rgba(150,150,150,1);
+    box-shadow: 20px 22px 70px -14px rgba(150,150,150,1);
+}
+
+/* Caption text */
+.text
+{
+    color: #f2f2f2;
+    font-size: 16px;
+    /*background: linear-gradient(to right, rgba(31,31,31,1) 0%, rgba(31,31,31,0.81) 19%, rgba(115,115,115,0.42) 58%, rgba(133,133,133,0.34) 66%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right, rgba(3,61,97,1) 0%, rgba(11,81,122,1) 30%, rgba(37,113,158,0.96) 49%, rgba(255,255,255,0) 100%);*/
+    background: #033D61;
+    padding: 12px 12px 4px 12px;
+	borlder-left: 3px solid #fff;
+	font-family: 'Montserrat',sans-serif;
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    width: 40%;
+    text-align: left;
+}
+
+.sub-text
+{
+    color: #f2f2f2;
+    font-size: 13px;
+    /*background: linear-gradient(to right, rgba(31,31,31,1) 0%, rgba(31,31,31,0.81) 19%, rgba(115,115,115,0.42) 58%, rgba(133,133,133,0.34) 66%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right, rgba(3,61,97,1) 0%, rgba(11,81,122,1) 30%, rgba(37,113,158,0.96) 49%, rgba(255,255,255,0) 100%);*/
+    background: #033D61;
+    padding: 4px 12px 12px 12px;
+    borlder-left: 3px solid #fff;
+	font-family: 'Montserrat',sans-serif;
+	letter-spacing: 1px;
+	position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 40%;
+    text-align: left;
+}
+
+img
+{
+    width: 100%;
+}
+
+/* The dots/bullets/indicators */
+
+.active
+{
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade
+{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade
+{
+    from
+    {
+        opacity: .4
+    }
+    to
+    {
+        opacity: 1
+    }
+}
+
+@keyframes fade
+{
+    from
+    {
+        opacity: .4
+    }
+    to
+    {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px)
+{
+    .text
+    {
+        font-size: 11px;
+    }
+}

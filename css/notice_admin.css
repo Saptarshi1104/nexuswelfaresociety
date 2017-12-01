@@ -1,0 +1,89 @@
+.notice-admin-container
+{
+	display: block;
+}
+
+.notice-admin-container input,textarea,select
+{
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	background: transparent;
+	border: 1px solid #033d61;
+	padding: 10px 15px;
+	margin: 0;
+
+}
+
+.notice-admin-container select
+{
+	width: 191px;
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	background: transparent;
+	border: 1px solid #033d61;
+	padding: 9px 15px;
+	margin: 0;
+}
+
+.notice-admin-container option
+{
+	background: #033d61;
+	color: #efefef;
+}
+
+.notice-admin-container textarea
+{
+	height: 150px;
+	width: 568px;
+	max-width: 568px;
+	max-height: 150px;
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	background: transparent;
+	border: 1px solid #033d61;
+	padding: 10px 15px;
+	margin: 0;
+}
+
+.notice-admin-container .left-char
+{
+	font-size: 13px;
+	font-style: italic;
+	letter-spacing: 1px;
+	color: #033d61;
+	margin: 3px 0 0 0;
+}
+
+.notice-admin-container .noticetag
+{
+	width: 568px;
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	background: transparent;
+	border: 1px solid #033d61;
+	padding: 10px 15px;
+	margin: 0;
+}
+
+.notice-admin-container input[type=submit]
+{
+	background: #033d61;
+	color: #F2FAFF;
+	width: 600px;
+	letter-spacing: 1px;
+	border-radius: 2px;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 22px 1px rgba(168,168,168,0.4);
+    -moz-box-shadow: 0px 0px 22px 1px rgba(168,168,168,0.4);
+    box-shadow: 0px 0px 22px 1px rgba(168,168,168,0.3);
+}
+
+.notice-admin-container input[type=submit]:hover
+{
+	background: #033d61;
+	color: #F2FAFF;
+	opacity: .9;
+	width: 600px;
+	letter-spacing: 1px;
+	border-radius: 2px;
+}

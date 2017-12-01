@@ -1,0 +1,38 @@
+.add-admin-container
+{
+	display: block;
+	position: absolute;
+	top: 0;
+}
+
+.add-admin-container input
+{
+	width: 568px;
+	display: inline;
+	font-family: 'Montserrat', sans-serif;
+	background: transparent;
+	border: 1px solid #033d61;
+	padding: 10px 15px;
+	margin: 0;
+}
+
+.add-admin-container input[type=submit]
+{
+	background: #033d61;
+	color: #F2FAFF;
+	width: 600px;
+	letter-spacing: 1px;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.add-admin-container input[type=submit]:hover
+{
+	background: #033d61;
+	color: #F2FAFF;
+	opacity: .9;
+	width: 600px;
+	letter-spacing: 1px;
+	border-radius: 2px;
+}
+
